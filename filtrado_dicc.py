@@ -1,4 +1,4 @@
-# Etapa 2 - Construccion de un Diccionario de Palabras condidatas
+# Construccion de un Diccionario de Palabras condidatas
 
 from datos import obtener_lista_definiciones
 

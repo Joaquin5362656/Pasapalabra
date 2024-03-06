@@ -1,4 +1,3 @@
-# Etapa 8 - Archivos de Texto
 
 from filtrado_dicc import palabra_sin_acento
 MAX = "ZZZZ"

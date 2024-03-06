@@ -1,6 +1,4 @@
 """Importamos el diccionario que necesitamos"""
-# ETAPA 1
-#import diccionario_etapa1
 
 dicc = {"casa": "lugar donde vives", "perro": "animal domestico", "gato": "animal domestico"}
 

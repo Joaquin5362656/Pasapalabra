@@ -16,9 +16,8 @@ Lista de letras que deben procesar:
 ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w',
 'x', 'y', 'z']
 """
-# ETAPA 3 - Eleccion de las palabras candidatas para formar el "rosco".
+
 import random
-#from filtrado_dicc import cargar_datos_para_rosco
 
 
 def cargar_letras(cant_letras_rosco):
@@ -33,13 +32,6 @@ def cargar_letras(cant_letras_rosco):
             't', 'u', 'v', 'w', 'x', 'y', 'z']
     lista_letras = random.sample(letras, k = cant_letras_rosco)
     return sorted(lista_letras, key=lambda x: x.replace("ñ", "n~"))
-
-"""
-def probar_funcion(dicc_rosco):
-    lista_letras = cargar_letras()
-    for i in range(100):
-        print(cargar_palabras(dicc_rosco, lista_letras))
-"""
 
 
 # Funcion que retorna una lista de listas
@@ -58,7 +50,4 @@ def cargar_palabras_definiciones(diccionario_rosco, lista_letras):
             palabras_definiciones.append(palabra_definicion)
     return palabras_definiciones
 
-#diccionario_rosco = cargar_datos_para_rosco()
-#lista_letras = cargar_letras()
-#lista = cargar_palabras_definiciones(diccionario_rosco, lista_letras)
 
